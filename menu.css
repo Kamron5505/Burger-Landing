@@ -1,0 +1,70 @@
+.menu {
+    padding: 50px 0;
+    background: #fffaf0;
+    text-align: center;
+}
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+.menu__title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.menu__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.menu__card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu__card:hover {
+    transform: translateY(-5px);
+}
+
+.menu__img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu__name {
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+.menu__desc {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.menu__price {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e63946;
+}
+
+.btn {
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e64a19;
+}
